@@ -1,0 +1,164 @@
+
+@media (min-width: 1120px){
+    .na{
+        display: flex;
+        flex-direction: row; 
+        background-color: #252551; 
+        margin: 20px; 
+        border-radius: 60px;
+        position: sticky;
+        top: 0;
+    }
+    .imm{
+        margin: .5em;
+        display: flex;
+    }
+    .im{
+        height: 50px;
+        border: 2px solid #252551; 
+        border-radius: 100px; 
+        margin: 7px 5px 5px 50px;
+    }
+    .el{
+        margin: 21px 18px
+    }
+    .llu{
+        margin: .5em 1em
+    }
+    .lu{
+        list-style: none;
+        margin: 2px 2px 2px 2px;
+    }
+    .le{
+        margin:  20px 30px 24px 30px;
+        float: left;
+        text-decoration: none;
+    }
+    .ae{
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+        padding: 2px 8px;  
+    }
+    .ae:not(.active):hover{
+        background-color: rgb(130, 108, 79);
+        cursor: pointer;
+    }   
+}
+
+@media (min-width: 800px ) and (max-width: 1220px ){
+    .na{
+        display: flex;
+        flex-direction: row; 
+        background-color:  #252551;
+        margin: 20px; 
+        border-radius: 60px;
+        position: sticky;
+        top: 0;
+    }
+    .eee{
+        margin:  20px 30px 24px 2px;
+        float: left;
+        text-decoration: none;
+    }
+    .ze{
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+    }
+    .uul{
+        list-style: none;
+        margin: 2px 2px 2px 2px;
+    }
+    .ull{
+        margin: .5em 2px
+    }
+    .lee{
+        margin: 21px 4px
+    }
+    .mi{
+        height: 50px;
+        border: 2px solid #252551; 
+        border-radius: 100px; 
+        margin: 7px 5px 5px 5px;
+    }
+    .mmi{
+        margin: .5em;
+        display: flex;
+    }
+    .ze:not(.active):hover{
+        background-color: rgb(130, 108, 79);
+        cursor: pointer;
+    } 
+}
+.menu{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    display: none;
+}
+.ham{
+    height: 1.5rem;
+
+}
+
+@media (max-width: 800px){
+    .na{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+        background-color: #252551; 
+        margin: 20px; 
+        border-radius: 60px;
+        position: sticky;
+        top: 0;
+    }
+    .imm{
+        margin: .5em;
+        display: flex;
+    }
+    .im{
+        height: 50px;
+        border: 2px solid #252551; 
+        border-radius: 100px; 
+        margin: 7px 5px 5px 5px;
+    }
+    .el{
+        margin: 21px 4px
+    }
+    .llu{
+        margin: .5em 1em;
+    }
+    .lu{
+        list-style: none;
+        margin: 2px 2px 2px 2px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        display: none;
+    }
+    .le{
+        margin:  20px 30px 24px 30px;
+        float: left;
+        text-decoration: none;
+    }
+    .ae{
+        text-decoration: none;
+        color: white;
+        border-radius: 5px; 
+        text-align: center; 
+    }
+    .ae:not(.active):hover{
+        background-color: rgb(130, 108, 79);
+        cursor: pointer;
+    }  
+    .menu{
+        display: flex;
+    } 
+    .open{
+        display: flex;
+    }
+}
+.active{
+    background-color: rgb(47, 80, 152);
+}
